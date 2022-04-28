@@ -1,0 +1,10 @@
+﻿  OOP Labwork №3.cpp
+C:\Users\Asus\Desktop\OOP Labwork №3\OOP Labwork №3\OOP Labwork №3.cpp(283,42): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\OOP Labwork №3\OOP Labwork №3\OOP Labwork №3.cpp(283,29): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\OOP Labwork №3\OOP Labwork №3\OOP Labwork №3.cpp(283,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\OOP Labwork №3\OOP Labwork №3\OOP Labwork №3.cpp(292,44): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\OOP Labwork №3\OOP Labwork №3\OOP Labwork №3.cpp(292,31): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\OOP Labwork №3\OOP Labwork №3\OOP Labwork №3.cpp(292,21): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\OOP Labwork №3\OOP Labwork №3\OOP Labwork №3.cpp(1180,15): warning C4101: exception: неиспользованная локальная переменная
+C:\Users\Asus\Desktop\OOP Labwork №3\OOP Labwork №3\OOP Labwork №3.cpp(828): warning C4715: Gym::FileIsEmpty: значение возвращается не при всех путях выполнения
+  OOP Labwork №3.vcxproj -> C:\Users\Asus\Desktop\OOP Labwork №3\x64\Debug\OOP Labwork №3.exe
