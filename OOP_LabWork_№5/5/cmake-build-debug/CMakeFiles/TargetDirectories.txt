@@ -1,0 +1,3 @@
+C:/Users/yauhe/Documents/Studies/4term/OOP/L5/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yauhe/Documents/Studies/4term/OOP/L5/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/yauhe/Documents/Studies/4term/OOP/L5/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+Full name: Andrey
+Age: 20
+Weight: 80
+Height: 180
+
+Full name: Egor
+Age: 21
+Weight: 80
+Height: 180
+

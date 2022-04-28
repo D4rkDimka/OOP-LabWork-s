@@ -1,0 +1,11 @@
+﻿  OOP_LabWork№5.cpp
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(65,11): warning C4129: I: неизвестная escape-последовательность
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(130,38): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(188,40): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(674,32): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(711,41): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(720,43): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(808,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(816,37): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\OOP_LabWork№5\OOP_LabWork№5.cpp(858,37): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  OOP_LabWork№5.vcxproj -> C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№5\OOP_LabWork№5\x64\Debug\OOP_LabWork№5.exe
