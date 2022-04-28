@@ -1,0 +1,6 @@
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
