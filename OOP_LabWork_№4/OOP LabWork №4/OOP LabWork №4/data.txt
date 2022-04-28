@@ -1,0 +1,12 @@
+Climber
+Amount of trainers: x2
+
+Stepper
+Amount of trainers: x2
+
+NoHammer
+Amount of trainers: x2
+
+Hammer
+Amount of trainers: x5
+

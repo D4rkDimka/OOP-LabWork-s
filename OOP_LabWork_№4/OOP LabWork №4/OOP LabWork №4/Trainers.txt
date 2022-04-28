@@ -1,0 +1,12 @@
+Hammer
+Amount of trainers: x2
+
+Butterfly
+Amount of trainers: x4
+
+Stepper
+Amount of trainers: x5
+
+Fast-Climber
+Amount of trainers: x1
+
