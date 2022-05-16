@@ -100,6 +100,7 @@ public:
         string userNameOfProduct;
         Product userProduct;
         stack<Product>tempGoods;
+        CleareBuffer();
 
         cout << "Enter name of product y,d like to edit: ";
         getline(cin, userNameOfProduct);

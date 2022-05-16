@@ -1,6 +1,6 @@
 ﻿  OOP_LabWork_№6.cpp
-C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6.cpp(173,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6.cpp(336,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6.cpp(370,17): warning C4129: P: неизвестная escape-последовательность
-C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6.cpp(460,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6.cpp(174,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6.cpp(337,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6.cpp(371,17): warning C4129: P: неизвестная escape-последовательность
+C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6\OOP_LabWork_№6.cpp(461,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
   OOP_LabWork_№6.vcxproj -> C:\Users\Asus\Desktop\Dima Prudnik Folder\Git Hub work's\OOP LabWork's\OOP_LabWork_№6\OOP_LabWork_№6\x64\Debug\OOP_LabWork_№6.exe

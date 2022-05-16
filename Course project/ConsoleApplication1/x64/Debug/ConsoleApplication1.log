@@ -1,0 +1,12 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(245,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(1011,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(1028,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(1040,30): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(1342,36): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(470,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(450): message : во время компиляции функции-члена класс шаблон "void FileOperations<MailRecepient>::readFromFile(std::vector<std::shared_ptr<MailRecepient>,std::allocator<std::shared_ptr<MailRecepient>>>)"
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(1334): message : выполняется компиляция ссылки на экземпляр шаблон функции "void FileOperations<MailRecepient>::readFromFile(std::vector<std::shared_ptr<MailRecepient>,std::allocator<std::shared_ptr<MailRecepient>>>)"
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(1059): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "FileOperations<MailRecepient>"
+C:\Users\Asus\Desktop\Course project\ConsoleApplication1\ConsoleApplication1.cpp(239): warning C4715: Autorization::isCorrectData: значение возвращается не при всех путях выполнения
+  ConsoleApplication1.vcxproj -> C:\Users\Asus\Desktop\Course project\x64\Debug\ConsoleApplication1.exe
