@@ -10,6 +10,7 @@ void PacketDatabase::displayPacketMenu()
         << "\n(5) - Найти посылку"
         << "\n(6) - Отсортировать список с посылками"
         << "\n(7) - Чтение из файла"
+        << "\n(8) - Поиск по параметру"
         << "\n(0) - Выход"
         << "\n\nВаш выбор>> ";
 
@@ -388,4 +389,67 @@ bool PacketDatabase::isEmpty()
 int PacketDatabase::getSize()
 {
     return packets.size();
+}
+
+void PacketDatabase::findAmountOfPackets()
+{
+   
+    string numberOfPacket;
+    string address;
+    int counter = 0;
+    string name;
+    bool isFound = false;
+
+    cout << "Выберите параметр для фильтрации: "
+        << "\n(1) - Найти посылку по номеру"
+        << "\n(2) - Найти по адресу"
+        << "\n\nВаш выбор>> ";
+
+    int userChoice = inputOperations::getValueInt();
+
+    switch (userChoice)
+    {
+    case 1:
+        cout << "\nВведите номер посылки для поиска: ";
+        inputOperations::cleareBuffer();
+        getline(cin, numberOfPacket);
+
+        for (int i = 0; i < packets.size(); i++)
+        {
+            if (packets[i]->getNumberOfPacket() == numberOfPacket)
+            {
+                packets[i]->diplayPacketInformation();
+                cout << endl;
+                isFound = true;
+                counter++;
+            }
+        }
+        if (isFound == false) cout << "\nПосылок с таким вводом не найдено!\n";
+        cout << "\nКоличество посылок - " << counter << endl;
+        break;
+    case 2:
+        cout << "Введите адрес для поиска: ";
+        inputOperations::cleareBuffer();
+        getline(cin, name);
+
+        for (int i = 0; i < packets.size(); i++)
+        {
+            if (packets[i]->getAddress() == address)
+            {
+                packets[i]->diplayPacketInformation();
+                cout << endl;
+                isFound = true;
+                counter++;
+            }
+        }
+
+        if (isFound == false) cout << "\nПосылок с таким вводом не найдено!\n";
+        cout << "\nКоличество посылок - " << counter << endl;
+        break;
+    default:
+        cout << "\nКейса с таким номером нет!\n";
+        break;
+    }
+    if (userChoice == 1) file.writeInformationFile("Поиск посылок по номеру посылки");
+    else if (userChoice == 2) file.writeInformationFile("Поиск посылок по адресу");
 }

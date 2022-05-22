@@ -606,7 +606,7 @@ void MailRecepientDatabase::findAmountOfPeople()
         {
             if (recepients[i]->getFullName() == name)
             {
-                recepients[number]->displayInformation();
+                recepients[i]->displayInformation();
                 cout << endl;
                 isFound = true;
                 counter++;

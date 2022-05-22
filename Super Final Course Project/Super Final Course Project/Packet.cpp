@@ -54,9 +54,19 @@ void Packet::setAmountOfDaysForStorage(int amountOfDaysForStorage)
     this->amountOfDaysForStorage = amountOfDaysForStorage;
 }
 
+void Packet::setAddress(string address)
+{
+    this->address = address;
+}
+
 bool Packet::getCondition() const
 {
     return this->isGiven;
+}
+
+string Packet::getAddress() const
+{
+    return this->address;
 }
 
 string Packet::getNumberOfPacket() const

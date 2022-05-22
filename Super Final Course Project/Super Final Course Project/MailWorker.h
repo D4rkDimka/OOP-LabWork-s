@@ -8,7 +8,7 @@ class MailWorker :public Person
 private:
     string fullName;
     string position;
-    PacketDatabase packageDatabase;
+    PacketDatabase packetDatabase;
     MailRecepientDatabase clientDatabase;
 public:
     MailWorker(string fullName, string position) :fullName(fullName), position(position) {}

@@ -22,14 +22,14 @@ void MailWorker::manageClientDatabase()
 {
     bool isWorking = true;
 
-    if (clientDatabase.getAmountOfRecepients() == 0 && packageDatabase.isEmpty() == true)
+    if (clientDatabase.getAmountOfRecepients() == 0 && packetDatabase.isEmpty() == true)
     {
         vector<shared_ptr<Packet>>vectorOfPackets = clientDatabase.initializeMailRecepientDatabase();
-        packageDatabase.initializePacketDatabase();
+        packetDatabase.initializePacketDatabase();
 
         for (int i = 0; i < vectorOfPackets.size(); i++)
         {
-            packageDatabase.addNewPacketToDatabase(vectorOfPackets[i]);
+            packetDatabase.addNewPacketToDatabase(vectorOfPackets[i]);
         }
     }
     
@@ -127,64 +127,68 @@ void MailWorker::managePackageDatabase()
 {
     bool isWorking = true;
 
-    if (clientDatabase.getAmountOfRecepients() == 0 && packageDatabase.isEmpty() == true)
+    if (clientDatabase.getAmountOfRecepients() == 0 && packetDatabase.isEmpty() == true)
     {
         vector<shared_ptr<Packet>>vectorOfPackets = clientDatabase.initializeMailRecepientDatabase();
-        packageDatabase.initializePacketDatabase();
+        packetDatabase.initializePacketDatabase();
 
         for (int i = 0; i < vectorOfPackets.size(); i++)
         {
-            packageDatabase.addNewPacketToDatabase(vectorOfPackets[i]);
+            packetDatabase.addNewPacketToDatabase(vectorOfPackets[i]);
         }
     }
 
     while (isWorking)
     {
-        packageDatabase.displayPacketMenu();
+        packetDatabase.displayPacketMenu();
         int userChoice = inputOperations::getValueInt();
         bool isFound = false;
         switch (userChoice)
         {
         case 1:
-            packageDatabase.addNewPacketToDatabase();
+            packetDatabase.addNewPacketToDatabase();
             break;
         case 2:
-            if (packageDatabase.isEmpty() == false)
+            if (packetDatabase.isEmpty() == false)
             {
-                packageDatabase.displayPacketsFromDatabase();
-                cout << "Количество посылок - (" << packageDatabase.getSize() << ") \n" << endl;
+                packetDatabase.displayPacketsFromDatabase();
+                cout << "Количество посылок - (" << packetDatabase.getSize() << ") \n" << endl;
             }
             else cout << "\nБаза данных посылок пуста!\n";
             break;
         case 3:
-            if (packageDatabase.isEmpty() == false) packageDatabase.editPacketsInformation();
+            if (packetDatabase.isEmpty() == false) packetDatabase.editPacketsInformation();
             else cout << "\nБаза данных посылок пуста!\n";
             break;
         case 4:
-            if (packageDatabase.isEmpty() == false) packageDatabase.deleteCertainPacketFromDatabase();
+            if (packetDatabase.isEmpty() == false) packetDatabase.deleteCertainPacketFromDatabase();
             else cout << "\nБаза данных посылок пуста!\n";
             break;
         case 5:
-            if (packageDatabase.isEmpty() == false)
+            if (packetDatabase.isEmpty() == false)
             {
                 cout << "Выберете посылку, которую вы хотите найти: ";
-                packageDatabase.displayOnlyNumbersOfPackets();
+                packetDatabase.displayOnlyNumbersOfPackets();
                 cout << "\nВведите номер посылки: ";
                 string packageName = inputOperations::getValueStr();
-                int numberOfPackage = packageDatabase.findCertainPacket(packageName, isFound);
+                int numberOfPackage = packetDatabase.findCertainPacket(packageName, isFound);
             }
             else cout << "\nБаза данных посылок пуста!\n";
             break;
         case 6:
-            if (packageDatabase.isEmpty() == false)
+            if (packetDatabase.isEmpty() == false)
             {
-                packageDatabase.sortPackages();
-                packageDatabase.displayPacketsFromDatabase();
+                packetDatabase.sortPackages();
+                packetDatabase.displayPacketsFromDatabase();
             }
             else cout << "\nБаза данных посылок пуста!\n";
             break;
         case 7:
-            if (packageDatabase.isEmpty() == false) packageDatabase.readPacketsFromFile();
+            if (packetDatabase.isEmpty() == false) packetDatabase.readPacketsFromFile();
+            else cout << "\nБаза данных посылок пуста!\n";
+            break;
+        case 8:
+            if (packetDatabase.isEmpty() == false) packetDatabase.findAmountOfPackets();
             else cout << "\nБаза данных посылок пуста!\n";
             break;
         case 0:

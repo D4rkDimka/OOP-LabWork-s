@@ -3,15 +3,7 @@
 
 void MailRecepient::setFullName(string fullName)
 {
-    bool isCorrect = true;
-
-    for (int i = 0; i < fullName.size(); i++)
-    {
-        if (fullName[i] > '0' && fullName[i] < '9') isCorrect = false;
-    }
-
-    if (isCorrect == false) throw "\nВ имени присутсвуют цифры!\n";
-    else this->fullName = fullName;
+    this->fullName = fullName;
 }
 
 void MailRecepient::displayInformation()
@@ -37,6 +29,8 @@ void MailRecepient::displayRecepientMenu()
     cout << "\tКлиентское меню"
         << "\n(1) - Получить посылку"
         << "\n(2) - Отправить посылку"
+        << "\n(3) - Посмотреть личную информацию"
+        << "\n(4) - Изменить личную информацию"
         << "\n(0) - Уйти"
         << "\n\nВаш выбор>>";
 }

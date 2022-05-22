@@ -8,13 +8,12 @@ void Autorization::clearFile(string fileName)
     ofs.close();
 }
 
-void Autorization::registerNewUser(string login, string password)
+void Autorization::registerNewUser(string login, string password, string fileName,string name)
 {
     vector<User> tempUsers;
     bool isExist = false;
-    string fileName = "LoginsAndPassword.txt";
 
-    isExist = checkForExistingAccount(login);
+    isExist = checkForExistingAccount(login,fileName);
     if (isExist == true)
     {
         cout << "\nАккаунт с таким логином уже создан, попробуйте еще раз!\n";
@@ -38,6 +37,7 @@ void Autorization::registerNewUser(string login, string password)
             cout << "Ошибка: " << exception.what() << endl;
         }
 
+        fout << name<<endl;
         fout << login << endl;
         fout << encryptedPassword << endl << endl;
 
@@ -54,6 +54,44 @@ void Autorization::insertLoginAndPassword(string& login, string& password)
     login = inputOperations::getValueStr();
     cout << "Введите пароль: ";
     password = inputOperations::getValueStr();
+}
+
+void Autorization::getLoginAndPassword(string& userLogin, string& userPassword,string fileName,string userName)
+{
+    ifstream fin;
+    bool isExist = false;
+
+    fin.open(fileName, ios_base::in);
+
+    try
+    {
+        if (fin.is_open() == false || fin.bad() == true) throw runtime_error("Файл не может быть открыт или не существует!");
+    }
+    catch (runtime_error exception)
+    {
+        cout << "Ошибка: " << exception.what() << endl;
+    }
+
+    string buffer;
+    string login;
+    string password;
+    string name;
+
+    while (!fin.eof())
+    {
+        getline(fin, name);
+        if (userName == name) isExist = true;
+        getline(fin, login);
+        getline(fin, password);
+        getline(fin, buffer);
+        if (isExist == true)
+        {
+            userLogin = login;
+            userPassword = password;
+        }
+    }
+
+    fin.close();
 }
 
 void Autorization::displayExistingAccounts()
@@ -77,6 +115,17 @@ void Autorization::autorizationMenu()
     cout << "(1) - Добавить новый аккаунт"
         << "\n(2) - Войти в существующий аккаунт"
         << "\n\nВаш выбор>>";
+}
+
+string Autorization::getPassword(string login)
+{
+    bool isCorrect = false;
+
+    for (int i = 0; i < users.size(); i++)
+    {
+        if (users[i].getLogin() == login) return users[i].getPassword();
+        else return "";
+    }
 }
 
 bool Autorization::isCorrectData(string login, string password)
@@ -110,9 +159,8 @@ bool Autorization::checkLogin(string login, string findWord)
     return isConsistOf;
 }
 
-bool Autorization::checkForExistingAccount(string userLogin)
+bool Autorization::checkForExistingAccount(string userLogin,string fileName)
 {
-    string fileName = "LoginsAndPassword.txt";
     ifstream fin;
     bool isExist = false;
 
@@ -130,9 +178,11 @@ bool Autorization::checkForExistingAccount(string userLogin)
     string buffer;
     string login;
     string password;
+    string name;
     
     while (!fin.eof())
     {
+        getline(fin, name);
         getline(fin, login);
         getline(fin, password);
         getline(fin, buffer);
@@ -153,3 +203,10 @@ int Autorization::getFileSize(string fileName)
 
     return fileSize;
 }
+
+int Autorization::getAmountOfAccounts()
+{
+    return users.size();
+}
+
+

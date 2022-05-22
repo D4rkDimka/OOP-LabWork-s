@@ -37,4 +37,6 @@ public:
     bool isEmpty();
 
     int getSize();
+    
+    void findAmountOfPackets();
 };
