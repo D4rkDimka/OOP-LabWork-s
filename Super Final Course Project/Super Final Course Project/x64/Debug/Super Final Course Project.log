@@ -1,0 +1,36 @@
+﻿  Autorization.cpp
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\Autorization.cpp(70,55): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\Autorization.cpp(98,54): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\Autorization.cpp(151,25): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+  FileOperations.cpp
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+  MailRecepientDatabase.cpp
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\MailRecepientDatabase.cpp(491,29): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\MailRecepientDatabase.cpp(506,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MailWorker.cpp
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+  PacketDatabase.cpp
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\PacketDatabase.cpp(21,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\PacketDatabase.cpp(26,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\PacketDatabase.cpp(390,26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Super Final Course Project.cpp
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(50,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,22): error C3861: getFileSize: идентификатор не найден
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\FileOperations.h(103,33): message : "getFileSize": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\Super Final Course Project.cpp(25,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
