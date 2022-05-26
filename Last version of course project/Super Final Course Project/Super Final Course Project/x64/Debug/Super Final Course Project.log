@@ -1,0 +1,3 @@
+﻿  Super Final Course Project.cpp
+C:\Users\Asus\Desktop\Super Final Course Project\Super Final Course Project\Super Final Course Project.cpp(49,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Super Final Course Project.vcxproj -> C:\Users\Asus\Desktop\Super Final Course Project\x64\Debug\Super Final Course Project.exe
